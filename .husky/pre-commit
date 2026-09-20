@@ -1,0 +1,11 @@
+pnpm run generate-packages-section
+#!/usr/bin/env sh
+
+if [ -n "$CI" ]; then
+	echo "Skipping pre-commit in CI"
+	exit 0
+fi
+
+# --no-stash: keep changes in the working tree so an interrupted hook
+# (cancelled/killed/crashed) can never strand them in a hidden stash.
+pnpm exec lint-staged --no-stash

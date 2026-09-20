@@ -1,0 +1,22 @@
+packages:
+  - 'packages/**'
+  - 'tooling/**'
+
+catalogs:
+  prod:
+    '@trpc/server': ^11.16.0
+  dev:
+    '@pixpilot/dev-config': ^3.22.0
+    '@types/node': ^26.6.2
+    '@vitest/coverage-v8': ^5.0.1
+    '@vitest/ui': ^5.0.1
+    eslint: ^10.11.0
+    glob: ^13.0.6
+    prettier: ^3.9.8
+    tsdown: ^0.23.0
+    typescript: ^6.0.3
+    vitest: ^5.0.1
+    unrun: ^0.3.1
+
+overrides:
+  '@types/node': catalog:dev
