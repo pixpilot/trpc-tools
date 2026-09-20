@@ -1,7 +1,7 @@
 {
   "name": "@pixpilot/trpc-auth",
   "type": "module",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "packageManager": "pnpm@10.17.0",
   "description": "Authentication middlewares for tRPC",
   "author": "Mo Doaie <m.doaie@hotmail.com>",

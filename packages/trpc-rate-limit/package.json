@@ -1,7 +1,7 @@
 {
   "name": "@pixpilot/trpc-rate-limit",
   "type": "module",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "packageManager": "pnpm@10.17.0",
   "description": "Rate limiting middlewares for tRPC",
   "author": "Mo Doaie <m.doaie@hotmail.com>",
